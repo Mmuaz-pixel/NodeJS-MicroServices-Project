@@ -138,10 +138,10 @@ class CustomerService {
         }
     }
 
+	// this will be used for communication of microservices 
     async SubscribeEvents(payload){
  
         const { event, data } =  payload;
-
         const { userId, product, order, qty } = data;
 
         switch(event){
