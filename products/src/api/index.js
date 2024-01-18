@@ -1,4 +1,5 @@
 
 module.exports = {
-    products: require('./products')
+    products: require('./products'), 
+	app_events: require('./app-events')
 }
